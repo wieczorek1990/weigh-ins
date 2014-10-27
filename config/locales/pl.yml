@@ -1,0 +1,53 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+pl:
+  submit: 'Wyślij'
+  add: 'Dodaj ważenie'
+  date: 'Data'
+  weight: 'Waga'
+  manage: 'Zarządzaj'
+  weigh-ins: 'Ważenie'
+  already-weighed-in: 'Już się ważyłeś '
+  you: 'Ty'
+  success: 'Sukces'
+  import-error: 'Niepoprawny format importowanych danych w wyrażeniu: '
+  rest-imported: 'Reszta została zaimportowana'
+  actions: 'Akcje'
+  no-data: 'Nie masz żadnych danych'
+  import-export: 'Import/Eksport'
+  export: 'Eksport'
+  import: 'Import'
+  edit: 'Edytuj'
+  delete: 'Usuń'
+  save: 'Zapisz'
+  weight-error: 'Proszę wprowadzić poprawną wagę'
+  format: >
+    Każda linia powinna się składać z daty w formacie YYYY-MM-DD,
+    separatora takiego jak spacje, tabulatory lub średnik,
+    oraz liczby (która może być zmiennoprzecinkowa)
+  import-file: 'Import z pliku'
+
+  filestyle-button-text: 'Wybierz plik'
+  highcharts-loading: 'Ładuję...'
+  highcharts-no-data: 'Brak danych do wyświetlenia'
+  highcharts-print-chart: 'Drukuj wykres'
+  highcharts-reset-zoom-title: 'Resetuj poziom przybliżenia 1:1'

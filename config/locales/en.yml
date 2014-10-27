@@ -1,0 +1,49 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  submit: 'Submit'
+  add: 'Add a weigh-in'
+  date: 'Date'
+  weight: 'Weight'
+  manage: 'Manage'
+  weigh-ins: 'Weigh-ins'
+  already-weighed-in: 'You already weighed in on '
+  you: 'You'
+  success: 'Success'
+  import-error: 'Wrong import data format in expression: '
+  rest-imported: 'The rest was imported'
+  actions: 'Actions'
+  no-data: 'You have no data'
+  import-export: 'Import/Export'
+  export: 'Export'
+  import: 'Import'
+  edit: 'Edit'
+  delete: 'Delete'
+  save: 'Save'
+  validation-error: 'Date and weight validation failed'
+  format: >
+    Each line should be composed of date in format YYYY-MM-DD,
+    a separator such as spaces, tabs or semicolon,
+    and a number (which may be floating-point)
+  import-file: 'Import from file'
+
+  filestyle-button-text: 'Choose file'

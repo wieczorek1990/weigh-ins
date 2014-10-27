@@ -1,0 +1,15 @@
+h1 =t 'import'
+p =t 'format'
+.form
+  .form-group
+    textarea.form-control rows='16' id='import'
+  .form-group
+    .btn-group
+      button.btn.btn-default type='button' id='submitImport' =t 'import'
+h1 =t 'import-file'
+form method='post' enctype='multipart/form-data'
+  input.filestyle type='file' name='file-input' multiple=true id='file-input' data-input='false' data-iconName='fa fa-folder-open' data-buttonText="#{t 'filestyle-button-text'}"
+h1 =t 'export'
+.form
+  .form-group
+    button.btn.btn-default.filestyle type='file' id='submitExport' data-input='false' data-iconName='fa fa-save' data-buttonText="#{t 'export'}"
